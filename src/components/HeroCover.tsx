@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Image from 'next/image';
 import { AskAiAboutMe } from '@/components/AskAiAboutMe';
 
 /**
@@ -22,7 +21,7 @@ export function HeroCover() {
       // The nav itself stays mounted and floats over the cover.
       className="relative isolate -mt-[3.25rem] flex min-h-screen min-h-[100svh] flex-col overflow-hidden text-foreground sm:-mt-14"
       style={{
-        backgroundImage: "url('/hero-cover.jpg')",
+        backgroundImage: "url('/bg2.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'hsl(38 32% 96%)',
@@ -135,27 +134,7 @@ export function HeroCover() {
                     className="mt-[0.7em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
                   />
                   <span className="min-w-0 text-pretty">
-                          <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
-                            <div className="relative flex aspect-[4/5] w-[14rem] items-center justify-center overflow-hidden rounded-2xl border border-foreground/10 bg-background/45 ring-1 ring-foreground/5 backdrop-blur-sm sm:w-[16rem] md:w-[18rem] lg:w-[22rem] xl:w-[24rem]">
-                              {/* Replace `public/me.jpg` with your high-resolution headshot (recommended ~1200x1500). */}
-                              <Image
-                                src="/me.jpg"
-                                alt="Piyush Kumar headshot"
-                                fill
-                                className="rounded-2xl object-cover"
-                                sizes="(max-width: 640px) 240px, 320px"
-                                priority
-                                quality={90}
-                              />
-                              <span
-                                aria-hidden
-                                className="type-meta pointer-events-none absolute bottom-3 left-3 rounded bg-background/75 px-2 py-0.5 text-foreground/75"
-                              >
-                                Java · Python
-                              </span>
-                            </div>
-                          </div>
-
+                
             <AskAiAboutMe className="mt-9 max-w-[34rem]" />
 
             {/* Spacer only — keeps bullets / Ask AI where they are, restores
@@ -173,10 +152,11 @@ export function HeroCover() {
           <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
             <div className="relative flex aspect-[4/5] w-[14rem] items-center justify-center overflow-hidden rounded-2xl border border-foreground/10 bg-background/45 ring-1 ring-foreground/5 backdrop-blur-sm sm:w-[16rem] md:w-[18rem] lg:w-[22rem] xl:w-[24rem]">
               <Image
-                src="/piyush-headshot.jpg"
+                src="/headshot.jpg"
                 alt="Portrait of Piyush Kumar"
                 fill
                 priority
+                quality={90}
                 sizes="(max-width: 640px) 14rem, (max-width: 768px) 16rem, (max-width: 1024px) 18rem, (max-width: 1280px) 22rem, 24rem"
                 className="object-cover object-right"
               />
