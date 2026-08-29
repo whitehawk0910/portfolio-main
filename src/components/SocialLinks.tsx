@@ -1,0 +1,35 @@
+'use client';
+import { Home, Github, Mail, Linkedin } from 'lucide-react';
+
+export const SocialLinks = () => {
+  const links = [
+    { icon: Home, href: '#', label: 'Home' },
+    { icon: Github, href: 'https://github.com/whitehawk0910', label: 'GitHub' },
+    { icon: Mail, href: 'mailto:piyushofficial09@gmail.com', label: 'Email' },
+    {
+      icon: Linkedin,
+      href: 'https://www.linkedin.com/in/piyush-kumar-2886001aa/',
+      label: 'LinkedIn',
+    },
+  ];
+
+  return (
+    <section>
+      <div className="flex justify-center gap-6 py-8">
+        {links.map((link, index) => {
+          const Icon = link.icon;
+          return (
+            <a
+              key={index}
+              href={link.href}
+              aria-label={link.label}
+              className="p-3 rounded-full bg-gray-900/50 hover:bg-gray-800 transition-all duration-300 hover:scale-110"
+            >
+              <Icon className="w-5 h-5 text-gray-400 hover:text-white transition-colors" />
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  );
+};

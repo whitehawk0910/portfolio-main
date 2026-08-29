@@ -1,0 +1,22 @@
+# Piyush Kumar — llms.txt
+
+name: Piyush Kumar
+role: Software Engineer at Dentsu
+email: piyushofficial09@gmail.com
+site: https://piyushos.vercel.app/
+github: https://github.com/whitehawk0910
+linkedin: https://www.linkedin.com/in/piyush-kumar-2886001aa/
+resume: https://piyushos.vercel.app/resume
+
+## Experience
+- Dentsu — Software Engineer, Sep 2024–present. Java, Spring Boot, Python, GenAI, RAG, LLM orchestration, REST services, and enterprise data integration.
+- Healthflex — Algorithm & Backend Consultant, Aug–Sep 2024. ML-driven predictive algorithms.
+- Effigo Global — Software Development Intern, Jan–Apr 2024. Spring Boot, React, CI/CD, Kubernetes.
+- Samsung — Research & Development Intern, Dec 2022–Aug 2023. PyTorch, CUDA, GPU training, data pipelines, and high-resolution smoke simulation.
+
+## Education
+- Bachelor of Engineering, Ramaiah Institute of Technology, Bengaluru, 2020–2024. CGPA 8.6.
+- D.A.V. Public School, Koylanagar, CBSE, 2019. 86%.
+
+## Notes
+- Standalone projects, publications, research papers, and certifications were not listed in the supplied resume.

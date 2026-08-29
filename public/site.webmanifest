@@ -1,0 +1,16 @@
+{
+  "name": "Piyush Kumar - Portfolio",
+  "short_name": "Piyush Portfolio",
+  "start_url": "https://piyushos.vercel.app/",
+  "scope": "https://piyushos.vercel.app/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
