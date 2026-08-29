@@ -10,6 +10,7 @@ const SECTIONS: RailLink[] = [
   { id: 'about', label: 'History' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'writing', label: 'Writing' },
   { id: 'education', label: 'Education' },
   { id: 'skills', label: 'Stack' },
   { id: 'contact', label: 'Contact' },

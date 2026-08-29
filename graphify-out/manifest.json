@@ -32,8 +32,8 @@
     "hash": "46c3c2853a69da3d022a3b4e2c28e6e3"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/page.tsx": {
-    "mtime": 1787998862.5830178,
-    "hash": "3ea510298661594a8b6367ce0e1b62fd"
+    "mtime": 1788000402.9155169,
+    "hash": "ccee3f61c919f499eccd86749e085e67"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/opengraph-image.tsx": {
     "mtime": 1787997625.1500206,
@@ -124,12 +124,16 @@
     "hash": "a95fb79f6a325cd265875de03adde15a"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/Skills.tsx": {
-    "mtime": 1787998862.5850177,
-    "hash": "b533c3466afa549f237c4d9f9fba9e7b"
+    "mtime": 1788000402.936517,
+    "hash": "38363192d2183d487deba79aceeb5733"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/MarkdownBlogBlock.tsx": {
     "mtime": 1786781939.0,
     "hash": "fa50b16fc104ea574e6d53cfe1a46535"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/src/components/WritingHome.tsx": {
+    "mtime": 1788000394.0135107,
+    "hash": "9bb96c128ceba9d08cc147794251d153"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceOrgContributions.tsx": {
     "mtime": 1786781939.0,
@@ -148,8 +152,8 @@
     "hash": "748d16a419a2e4a314c2a07a035a9476"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceGlobe.tsx": {
-    "mtime": 1787998820.0174735,
-    "hash": "f4a96a6f3b828a519464547b153ecd81"
+    "mtime": 1788000394.0135107,
+    "hash": "890a62a5caab7a81ce21e474ba1a3a92"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ShareButton.tsx": {
     "mtime": 1787997592.7104232,
@@ -168,8 +172,8 @@
     "hash": "cf9bbf51d56a1048cf2a510390074e88"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/Education.tsx": {
-    "mtime": 1787998862.5840178,
-    "hash": "6ce5358af78ae820187d93f7929e0e78"
+    "mtime": 1788000402.936517,
+    "hash": "0895802f474890c2fa143658cff38537"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/TweetEmbed.tsx": {
     "mtime": 1786781939.0,
@@ -180,8 +184,8 @@
     "hash": "e362b161ce355e99068e33402d076adb"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/SiteFooter.tsx": {
-    "mtime": 1787998862.5840178,
-    "hash": "21ae49649f4587d8e4235504b259beae"
+    "mtime": 1788000402.936517,
+    "hash": "5558dfc1695c3fcb97d3710b5b188d52"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceHomeList.tsx": {
     "mtime": 1787998862.5830178,
@@ -200,8 +204,8 @@
     "hash": "4ed44ebae3077dad026e2b23cb66aa02"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/PageRail.tsx": {
-    "mtime": 1787998862.5840178,
-    "hash": "9c37ad511dd34afa58593c7c53394a4e"
+    "mtime": 1788000402.9355168,
+    "hash": "6f7930d4f5b4da06287d69232f6d3ada"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/Chatbot.tsx": {
     "mtime": 1787997743.8663967,
@@ -220,16 +224,16 @@
     "hash": "53ff3ec82508087b8b71c5356cab2ee8"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/SiteNav.tsx": {
-    "mtime": 1787998862.5840178,
-    "hash": "54560ac6dfe186ba89ae85b6e8500580"
+    "mtime": 1788000402.936517,
+    "hash": "a0fdd1c6675474706cb2de98ae8cb9d6"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/BlogSocials.tsx": {
     "mtime": 1787997670.615424,
     "hash": "17acaf96ae7dfaee14ce4f1ddaad7a4d"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/BookCall.tsx": {
-    "mtime": 1787998862.5850177,
-    "hash": "7880dd30d2211b33cad4f99b6b985b6a"
+    "mtime": 1788000402.937517,
+    "hash": "ffd82ef3fea60207e038466175c33ba5"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ui/sonner.tsx": {
     "mtime": 1786781939.0,
@@ -290,6 +294,10 @@
   "/home/white-hawk/Downloads/portfolio-main/src/data/llmsProfile.ts": {
     "mtime": 1787997476.5856588,
     "hash": "4621876634464faba04162b929314ad7"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/src/data/writings.ts": {
+    "mtime": 1788000394.0135107,
+    "hash": "375b7d0918831e83bef951dd1888f07c"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/og.ts": {
     "mtime": 1787997476.5856588,

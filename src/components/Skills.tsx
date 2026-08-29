@@ -118,7 +118,7 @@ export const Skills = () => (
   <section className="mb-16 md:mb-20" aria-labelledby="skills-heading">
     <div className="mb-10 flex items-baseline gap-4">
       <span className="type-numeral shrink-0 text-[1.6rem] text-accent">
-        05
+        06
       </span>
       <h2
         id="skills-heading"

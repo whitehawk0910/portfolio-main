@@ -1,11 +1,11 @@
 # Graph Report - portfolio-main  (2026-08-29)
 
 ## Corpus Check
-- 88 files · ~118,917 words
+- 90 files · ~119,293 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 172 nodes · 164 edges · 12 communities detected
+- 174 nodes · 164 edges · 12 communities detected
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -113,11 +113,11 @@ Nodes (2): normalizeFetchedTweet(), normalizeTweetEntities()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `generateMetadata()` connect `Community 0` to `Community 3`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `getBlogPost()` connect `Community 3` to `Community 0`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `cn()` connect `Community 1` to `Community 8`, `Community 6`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `generateMetadata()` (e.g. with `getProductBySlug()` and `getBlogPost()`) actually correct?**
   _`generateMetadata()` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 3 inferred relationships involving `getBlogPost()` (e.g. with `generateMetadata()` and `generateMetadata()`) actually correct?**

@@ -14,16 +14,41 @@ const CobeGlobe = dynamic(() => import('@/components/CobeGlobe'), {
 
 const markers = [
   {
+    location: [35.6762, 139.6503] as [number, number],
+    size: 0.075,
+    id: 'dentsu',
+  },
+  {
+    location: [37.5665, 126.978] as [number, number],
+    size: 0.07,
+    id: 'samsung',
+  },
+  {
     location: [12.9716, 77.5946] as [number, number],
-    size: 0.09,
+    size: 0.065,
+    id: 'effigo',
+  },
+  {
+    location: [37.7749, -122.4194] as [number, number],
+    size: 0.065,
+    id: 'healthflex',
   },
 ];
 
+const origin = [12.9716, 77.5946] as [number, number];
+const arcs = markers
+  .filter(marker => marker.id !== 'effigo')
+  .map(marker => ({
+    from: origin,
+    to: marker.location,
+    id: `career-${marker.id}`,
+  }));
+
 const roles = [
-  { company: 'Dentsu', code: 'DE', className: 'left-[2%] top-[12%]' },
-  { company: 'Samsung', code: 'SA', className: 'right-[1%] top-[24%]' },
-  { company: 'Effigo', code: 'EG', className: 'bottom-[18%] left-[1%]' },
-  { company: 'Healthflex', code: 'HF', className: 'bottom-[8%] right-[3%]' },
+  { id: 'dentsu', company: 'Dentsu', code: 'DE' },
+  { id: 'samsung', company: 'Samsung', code: 'SA' },
+  { id: 'effigo', company: 'Effigo', code: 'EG' },
+  { id: 'healthflex', company: 'Healthflex', code: 'HF' },
 ];
 
 export function ExperienceGlobe() {
@@ -41,17 +66,32 @@ export function ExperienceGlobe() {
           engineering path.
         </p>
         <p className="mt-4 max-w-[32ch] text-sm leading-relaxed text-muted-foreground">
-          Bengaluru is the only location plotted. Company labels summarize the
-          verified experience listed below.
+          Drag to rotate. The animated arcs form a visual career constellation;
+          the verified roles and dates are listed below.
         </p>
       </div>
 
       <div className="relative mx-auto aspect-square w-full max-w-[20rem] md:mx-0 md:max-w-[23rem] md:justify-self-end lg:max-w-[25rem]">
-        <CobeGlobe markers={markers} initialPhi={-1.3} />
+        <CobeGlobe
+          markers={markers}
+          arcs={arcs}
+          arcColor={[0.72, 0.32, 0.18]}
+          initialPhi={-1.3}
+        />
         {roles.map(role => (
           <div
             key={role.company}
-            className={`absolute ${role.className} flex items-center gap-2 rounded-sm border border-line/90 bg-background/92 px-2.5 py-2 shadow-[0_8px_24px_-16px_rgba(47,52,55,0.3)] backdrop-blur-sm`}
+            className="absolute flex items-center gap-2 rounded-sm border border-line/90 bg-background/92 px-2.5 py-2 shadow-[0_8px_24px_-16px_rgba(47,52,55,0.3)] backdrop-blur-sm transition-[opacity,filter,transform] duration-300"
+            style={
+              {
+                positionAnchor: `--cobe-${role.id}`,
+                bottom: 'anchor(top)',
+                left: 'anchor(center)',
+                opacity: `var(--cobe-visible-${role.id}, 0)`,
+                filter: `blur(calc((1 - var(--cobe-visible-${role.id}, 0)) * 8px))`,
+                transform: `translate(-50%, -0.5rem) scale(calc(0.88 + var(--cobe-visible-${role.id}, 0) * 0.12))`,
+              } as React.CSSProperties
+            }
           >
             <span className="flex h-7 w-7 items-center justify-center rounded-sm bg-foreground font-mono text-[9px] font-semibold tracking-wide text-background">
               {role.code}
