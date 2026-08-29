@@ -21,7 +21,7 @@ export function HeroCover() {
       // The nav itself stays mounted and floats over the cover.
       className="relative isolate -mt-[3.25rem] flex min-h-screen min-h-[100svh] flex-col overflow-hidden text-foreground sm:-mt-14"
       style={{
-        backgroundImage: "url('/bg2.png')",
+        backgroundImage: "url('/bg2.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'hsl(38 32% 96%)',
@@ -151,12 +151,12 @@ export function HeroCover() {
           {/* Right: supplied headshot, framed to preserve the cover layout. */}
           <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
             <div className="relative flex aspect-[4/5] w-[14rem] items-center justify-center overflow-hidden rounded-2xl border border-foreground/10 bg-background/45 ring-1 ring-foreground/5 backdrop-blur-sm sm:w-[16rem] md:w-[18rem] lg:w-[22rem] xl:w-[24rem]">
-              <Image
-                src="/piyush-headshot.jpg"
+                    <Image
+                      src="/bg2.png"
                 alt="Portrait of Piyush Kumar"
                 fill
                 priority
-                quality={100}
+                quality={90}
                 sizes="(max-width: 640px) 14rem, (max-width: 768px) 16rem, (max-width: 1024px) 18rem, (max-width: 1280px) 22rem, 24rem"
                 className="object-cover object-right"
               />
