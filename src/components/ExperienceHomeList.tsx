@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { experiences } from '@/data/experiences';
 import { isCurrentRole } from '@/lib/experienceMeta';
 import { ExperienceListRow } from '@/components/ExperienceListRow';
+import { ExperienceGlobe } from '@/components/ExperienceGlobe';
 
 const HOME_PREVIEW_COUNT = 4;
 
@@ -44,6 +45,8 @@ export function ExperienceHomeList() {
           </Link>
         )}
       </div>
+
+      <ExperienceGlobe />
 
       <div className="border-t border-line/80">
         {preview.map(exp => (

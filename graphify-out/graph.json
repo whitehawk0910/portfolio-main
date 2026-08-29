@@ -589,12 +589,21 @@
       "norm_label": "about.tsx"
     },
     {
+      "label": "ExperienceGlobe.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ExperienceGlobe.tsx",
+      "source_location": "L1",
+      "id": "src_components_experienceglobe_tsx",
+      "community": 36,
+      "norm_label": "experienceglobe.tsx"
+    },
+    {
       "label": "ShareButton.tsx",
       "file_type": "code",
       "source_file": "src/components/ShareButton.tsx",
       "source_location": "L1",
       "id": "src_components_sharebutton_tsx",
-      "community": 36,
+      "community": 37,
       "norm_label": "sharebutton.tsx"
     },
     {
@@ -603,7 +612,7 @@
       "source_file": "src/components/ProjectsHome.tsx",
       "source_location": "L1",
       "id": "src_components_projectshome_tsx",
-      "community": 37,
+      "community": 38,
       "norm_label": "projectshome.tsx"
     },
     {
@@ -657,7 +666,7 @@
       "source_file": "src/components/Education.tsx",
       "source_location": "L1",
       "id": "src_components_education_tsx",
-      "community": 38,
+      "community": 39,
       "norm_label": "education.tsx"
     },
     {
@@ -702,7 +711,7 @@
       "source_file": "src/components/SiteFooter.tsx",
       "source_location": "L1",
       "id": "src_components_sitefooter_tsx",
-      "community": 39,
+      "community": 40,
       "norm_label": "sitefooter.tsx"
     },
     {
@@ -898,7 +907,7 @@
       "label": "isHome()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L34",
+      "source_location": "L39",
       "id": "components_sitenav_ishome",
       "community": 6,
       "norm_label": "ishome()"
@@ -907,7 +916,7 @@
       "label": "matchesRoute()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L38",
+      "source_location": "L43",
       "id": "components_sitenav_matchesroute",
       "community": 6,
       "norm_label": "matchesroute()"
@@ -916,7 +925,7 @@
       "label": "scrollToSection()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L45",
+      "source_location": "L50",
       "id": "components_sitenav_scrolltosection",
       "community": 6,
       "norm_label": "scrolltosection()"
@@ -925,7 +934,7 @@
       "label": "handleClick()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L65",
+      "source_location": "L70",
       "id": "components_sitenav_handleclick",
       "community": 6,
       "norm_label": "handleclick()"
@@ -934,7 +943,7 @@
       "label": "onScroll()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L109",
+      "source_location": "L114",
       "id": "components_sitenav_onscroll",
       "community": 6,
       "norm_label": "onscroll()"
@@ -943,7 +952,7 @@
       "label": "handleContactClick()",
       "file_type": "code",
       "source_file": "src/components/SiteNav.tsx",
-      "source_location": "L163",
+      "source_location": "L168",
       "id": "components_sitenav_handlecontactclick",
       "community": 6,
       "norm_label": "handlecontactclick()"
@@ -972,7 +981,7 @@
       "source_file": "src/components/BookCall.tsx",
       "source_location": "L1",
       "id": "src_components_bookcall_tsx",
-      "community": 40,
+      "community": 41,
       "norm_label": "bookcall.tsx"
     },
     {
@@ -981,7 +990,7 @@
       "source_file": "src/components/ui/sonner.tsx",
       "source_location": "L1",
       "id": "src_components_ui_sonner_tsx",
-      "community": 41,
+      "community": 42,
       "norm_label": "sonner.tsx"
     },
     {
@@ -1075,6 +1084,15 @@
       "norm_label": "avatar.tsx"
     },
     {
+      "label": "selectedWork.ts",
+      "file_type": "code",
+      "source_file": "src/data/selectedWork.ts",
+      "source_location": "L1",
+      "id": "src_data_selectedwork_ts",
+      "community": 43,
+      "norm_label": "selectedwork.ts"
+    },
+    {
       "label": "products.ts",
       "file_type": "code",
       "source_file": "src/data/products.ts",
@@ -1107,7 +1125,7 @@
       "source_file": "src/data/experiences.ts",
       "source_location": "L1",
       "id": "src_data_experiences_ts",
-      "community": 42,
+      "community": 44,
       "norm_label": "experiences.ts"
     },
     {
@@ -1287,7 +1305,7 @@
       "source_file": "src/lib/fonts.ts",
       "source_location": "L1",
       "id": "src_lib_fonts_ts",
-      "community": 43,
+      "community": 45,
       "norm_label": "fonts.ts"
     },
     {
@@ -1341,7 +1359,7 @@
       "source_file": "src/lib/chatContext.ts",
       "source_location": "L1",
       "id": "src_lib_chatcontext_ts",
-      "community": 44,
+      "community": 46,
       "norm_label": "chatcontext.ts"
     },
     {
@@ -1350,7 +1368,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L1",
       "id": "src_lib_site_ts",
-      "community": 45,
+      "community": 47,
       "norm_label": "site.ts"
     },
     {
@@ -1422,7 +1440,7 @@
       "source_file": "src/lib/featureFlags.ts",
       "source_location": "L1",
       "id": "src_lib_featureflags_ts",
-      "community": 46,
+      "community": 48,
       "norm_label": "featureflags.ts"
     },
     {
@@ -1431,7 +1449,7 @@
       "source_file": "src/types/blog.ts",
       "source_location": "L1",
       "id": "src_types_blog_ts",
-      "community": 47,
+      "community": 49,
       "norm_label": "blog.ts"
     },
     {
