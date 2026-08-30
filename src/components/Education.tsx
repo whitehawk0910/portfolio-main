@@ -30,21 +30,6 @@ export const Education = () => {
           </time>
         </div>
       </div>
-      <div className="border-b border-foreground/15">
-        <div className="grid gap-3 py-6 sm:grid-cols-[1fr_auto] sm:items-baseline sm:gap-8 sm:py-7">
-          <div className="min-w-0">
-            <h3 className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
-              D.A.V. Public School, Koylanagar
-            </h3>
-            <p className="font-display mt-1 text-base italic font-light text-accent">
-              CBSE · 86%
-            </p>
-          </div>
-          <time className="self-start whitespace-nowrap font-mono text-xs text-muted-foreground tabular-nums sm:self-baseline">
-            2019
-          </time>
-        </div>
-      </div>
     </section>
   );
 };
