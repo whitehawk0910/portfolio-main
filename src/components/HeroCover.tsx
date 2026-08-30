@@ -191,8 +191,8 @@ export function HeroCover() {
                 <span aria-hidden className="text-accent">
                   ↗
                 </span>
-                <span className="text-foreground">Backend</span>
-                <span>engineering</span>
+                <span className="text-foreground">QUANT</span>
+                <span>Reseach</span>
               </li>
               <li className="flex items-baseline gap-2 lg:justify-center">
                 <span aria-hidden className="text-accent">
@@ -205,8 +205,8 @@ export function HeroCover() {
                 <span aria-hidden className="text-accent">
                   ◎
                 </span>
-                <span className="tabular-nums text-foreground">8.6</span>
-                <span>engineering CGPA</span>
+                <span className="tabular-nums text-foreground">AI </span>
+                <span>Engineering</span>
               </li>
             </ul>
           </div>
