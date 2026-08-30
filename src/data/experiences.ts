@@ -61,7 +61,7 @@ export const experiences: Experience[] = [
     reposPrivate: true,
   },
   {
-    company: 'Healthflex',
+    company: 'Freelance',
     role: 'Algorithm & Backend Consultant',
     period: 'Aug 2024 — Sep 2024',
     description:

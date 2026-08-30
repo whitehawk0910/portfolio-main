@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Resume · Piyush Kumar',
     description:
-      'Software engineering experience at Dentsu, Samsung, Effigo Global, and Healthflex.',
+      'Software engineering experience at Dentsu, Samsung, Effigo Global, and Freelance.',
   },
 };
 

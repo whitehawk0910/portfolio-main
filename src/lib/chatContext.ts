@@ -14,7 +14,7 @@ PROFILE
 
 EXPERIENCE
 - Dentsu, Software Engineer, September 2024 to present: GenAI backend services, RAG pipelines, LLM orchestration, REST APIs, enterprise data integration, schemas, retrieval logic, and identity-resolution workflows. Technologies: Java, Spring Boot, Python, GenAI.
-- Healthflex, Algorithm & Backend Consultant, August 2024 to September 2024: designed ML-driven predictive algorithms for backend decision support.
+- Freelance, Algorithm & Backend Consultant, August 2024 to September 2024: designed ML-driven predictive algorithms for backend decision support.
 - Effigo Global, Software Development Intern, January 2024 to April 2024: Spring Boot backend components, data pipelines, analytics dashboards, CI/CD automation, and Kubernetes-based deployments.
 - Samsung, Research & Development Intern, December 2022 to August 2023: deep-learning models for high-resolution smoke simulation, GPU training experiments, data-pipeline optimization, PyTorch, and CUDA.
 

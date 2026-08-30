@@ -48,7 +48,7 @@ const roles = [
   { id: 'dentsu', company: 'Dentsu', code: 'DE' },
   { id: 'samsung', company: 'Samsung', code: 'SA' },
   { id: 'effigo', company: 'Effigo', code: 'EG' },
-  { id: 'healthflex', company: 'Healthflex', code: 'HF' },
+  { id: 'healthflex', company: 'Freelance', code: 'HF' },
 ];
 
 export function ExperienceGlobe() {

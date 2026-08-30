@@ -5,7 +5,7 @@ import { SHOW_FLOATING_CHROME } from '@/lib/featureFlags';
 export const metadata: Metadata = {
   title: 'Experience',
   description:
-    'Software engineering experience across Dentsu, Samsung, Effigo Global, and Healthflex.',
+    'Software engineering experience across Dentsu, Samsung, Effigo Global, and Freelance.',
 };
 
 export default function ProjectsLayout({

@@ -36,7 +36,7 @@ export const About = () => (
           My work spans RAG pipelines, LLM orchestration, enterprise data
           integration, REST APIs, and production automation. Previously, I
           worked on GPU-based deep learning at Samsung, backend delivery at
-          Effigo Global, and predictive algorithms for Healthflex.
+          Effigo Global, and predictive algorithms for Freelance.
         </p>
       </div>
 
