@@ -4,6 +4,7 @@ import { ArrowLeft, ExternalLink } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getProductBySlug, getProductSlugs } from '@/data/products';
+import { createOgMetadata } from '@/lib/og';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -30,13 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${product.name} — project`,
-    description: product.summary,
-    openGraph: {
-      title: `${product.name} — ${product.tagline}`,
+    ...createOgMetadata({
+      title: `${product.name} — Piyush Kumar project`,
       description: product.summary,
-      images: [{ url: product.coverImage }],
-    },
+      url: `/work/${slug}`,
+      imagePath: product.coverImage,
+    }),
+    alternates: { canonical: `/work/${slug}` },
   };
 }
 

@@ -22,6 +22,6 @@ export default function BlogOpenGraphImage() {
       { value: 'AWS', label: 'Cloud' },
     ],
     showPortrait: false,
-    footer: 'piyushos.vercel.app/blog',
+    footer: 'piyush45.vercel.app/blog',
   });
 }

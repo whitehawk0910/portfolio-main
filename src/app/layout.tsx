@@ -5,7 +5,14 @@ import { SiteNav } from '@/components/SiteNav';
 import { JsonLd } from '@/components/JsonLd';
 import { fontVariables } from '@/lib/fonts';
 import { createOgMetadata, DEFAULT_OG } from '@/lib/og';
-import { SITE_NAME, SITE_URL } from '@/lib/site';
+import {
+  PERSON_ID,
+  profile,
+  profileSameAs,
+  SITE_NAME,
+  SITE_URL,
+  WEBSITE_ID,
+} from '@/lib/site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -15,6 +22,9 @@ export const metadata: Metadata = {
   },
   description: DEFAULT_OG.description,
   authors: [{ name: 'Piyush Kumar', url: SITE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  keywords: [...profile.knowsAbout],
   alternates: {
     canonical: '/',
   },
@@ -41,25 +51,24 @@ const structuredData = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': WEBSITE_ID,
     name: SITE_NAME,
     url: SITE_URL,
-    description:
-      'Software engineer at Dentsu building GenAI-backed services and backend systems.',
+    description: profile.description,
+    author: { '@id': PERSON_ID },
+    publisher: { '@id': PERSON_ID },
   },
   {
     '@context': 'https://schema.org',
     '@type': 'Person',
+    '@id': PERSON_ID,
     name: SITE_NAME,
     url: SITE_URL,
-    jobTitle: 'Software Engineer',
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Dentsu',
-    },
-    sameAs: [
-      'https://github.com/whitehawk0910',
-      'https://www.linkedin.com/in/piyush-kumar-2886001aa/',
-    ],
+    image: new URL(profile.image, SITE_URL).toString(),
+    jobTitle: profile.headline,
+    description: profile.description,
+    sameAs: profileSameAs,
+    knowsAbout: profile.knowsAbout,
   },
 ];
 

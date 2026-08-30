@@ -20,7 +20,7 @@ npm run build
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
-NEXT_PUBLIC_HOST_URL=https://piyushos.vercel.app
+NEXT_PUBLIC_HOST_URL=https://piyush45.vercel.app
 ```
 
 `GEMINI_API_KEY` enables the portfolio chatbot. The chatbot context is limited to verified resume information.

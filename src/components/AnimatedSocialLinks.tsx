@@ -29,7 +29,7 @@ export const AnimatedSocialLinks = () => {
     },
     {
       icon: ExternalLink as IconComponent,
-      href: 'https://piyushos.vercel.app/',
+      href: 'https://piyush45.vercel.app/',
       label: 'Portfolio',
     },
     {

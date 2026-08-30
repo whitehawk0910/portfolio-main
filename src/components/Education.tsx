@@ -22,7 +22,7 @@ export const Education = () => {
               Ramaiah Institute of Technology, Bengaluru
             </h3>
             <p className="font-display mt-1 text-base italic font-light text-accent">
-              Bachelor of Engineering · CGPA 8.6
+              Bachelor of Engineering 
             </p>
           </div>
           <time className="self-start whitespace-nowrap font-mono text-xs text-muted-foreground tabular-nums sm:self-baseline">

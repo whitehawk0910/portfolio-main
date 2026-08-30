@@ -8,7 +8,7 @@
     "hash": "c735540bb63936a123bc867d950c9f69"
   },
   "/home/white-hawk/Downloads/portfolio-main/next-env.d.ts": {
-    "mtime": 1787997766.0250726,
+    "mtime": 1788106032.8398597,
     "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/home/white-hawk/Downloads/portfolio-main/next.config.ts": {
@@ -24,8 +24,8 @@
     "hash": "d5b67aed4e639750f3091cc4cce8ab28"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/sitemap.ts": {
-    "mtime": 1787997670.615424,
-    "hash": "f744697df52a8ff13a19d9c72819b21f"
+    "mtime": 1788105552.794133,
+    "hash": "c2cc1130324fcdd29eef056e403a7bdf"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/twitter-image.tsx": {
     "mtime": 1787997625.1500206,
@@ -40,8 +40,8 @@
     "hash": "ed45ba5a267437abe999b3c37d6a9053"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/layout.tsx": {
-    "mtime": 1787997710.4598742,
-    "hash": "5aa9770b9c0b2e168a724af50ecfbb90"
+    "mtime": 1788105590.1875544,
+    "hash": "38454925eb3b4e746e8e17c9ad16e9e8"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/not-found.tsx": {
     "mtime": 1786781939.0,
@@ -56,16 +56,24 @@
     "hash": "d5041c4aa4822df7bf00705627244129"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/work/[slug]/page.tsx": {
-    "mtime": 1786781939.0,
-    "hash": "56f67be799b398f9837ea3ddc3407789"
+    "mtime": 1788105552.7951329,
+    "hash": "824cfbea4342df5469376271ee0ae55b"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/src/app/articles/page.tsx": {
+    "mtime": 1788105804.1384146,
+    "hash": "3b8cf3f52c881fd889ec4062e2159996"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/src/app/about/page.tsx": {
+    "mtime": 1788105804.1214147,
+    "hash": "0a8ea3f8ae0f647f8d562e317184e887"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/blog/page.tsx": {
     "mtime": 1787997625.1510208,
     "hash": "a3d1f911e87534e13bcaff5e7a2a58d6"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/blog/opengraph-image.tsx": {
-    "mtime": 1787997625.1510208,
-    "hash": "c119e3d49cc2629dc2d596ac291b7633"
+    "mtime": 1788106010.780573,
+    "hash": "72bedbb67940d93403e03383f13a5da0"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/blog/layout.tsx": {
     "mtime": 1787997625.1510208,
@@ -76,20 +84,24 @@
     "hash": "b6761002bf3434bd6d4d5a4220a877c8"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/blog/[slug]/opengraph-image.tsx": {
-    "mtime": 1787997652.7846622,
-    "hash": "569295b39094835d69e7447e91bd7810"
+    "mtime": 1788106010.780573,
+    "hash": "aa294b094996d55a50063c4120849a88"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/src/app/research/page.tsx": {
+    "mtime": 1788105804.1544147,
+    "hash": "885364c861ec1a05753f4cd6723953f2"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/projects/page.tsx": {
     "mtime": 1787997743.7163987,
     "hash": "00555c6aaf5a4b2933c3e0f57977c8bf"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/projects/layout.tsx": {
-    "mtime": 1787997592.7094233,
-    "hash": "1f6c0f4119fcb130f31f98a377e08c31"
+    "mtime": 1788105552.7951329,
+    "hash": "88e7517ffafa3470aaefbded1429d415"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/projects/[slug]/page.tsx": {
-    "mtime": 1787997743.7483983,
-    "hash": "e978a390883ebf3795441e0a23f09eee"
+    "mtime": 1788105552.7951329,
+    "hash": "cfc1dc672b77d9f8a7f7072743c90e1a"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/api/chat/route.ts": {
     "mtime": 1786781939.0,
@@ -100,8 +112,8 @@
     "hash": "023da21aa92c5c1d82612119cd17768b"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/app/resume/layout.tsx": {
-    "mtime": 1787997476.5866587,
-    "hash": "5fa7146c8b90ac59c27973a71e4c4aaf"
+    "mtime": 1788075855.172274,
+    "hash": "4d569e38172952917b1e28d184454e23"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/PostCoverChrome.tsx": {
     "mtime": 1786781939.0,
@@ -120,8 +132,8 @@
     "hash": "78f7de19c66810e328bb378c63559473"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/JsonLd.tsx": {
-    "mtime": 1786781939.0,
-    "hash": "a95fb79f6a325cd265875de03adde15a"
+    "mtime": 1788105611.9198513,
+    "hash": "a63ae8d75641ce2a9b39e133313abf1d"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/Skills.tsx": {
     "mtime": 1788000402.936517,
@@ -148,16 +160,16 @@
     "hash": "b35239526f92e48168a49dcc46453ed2"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/About.tsx": {
-    "mtime": 1787997743.8153975,
-    "hash": "748d16a419a2e4a314c2a07a035a9476"
+    "mtime": 1788106149.6102462,
+    "hash": "c318538132b53bc3b96c41ac3d863c16"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceGlobe.tsx": {
-    "mtime": 1788000394.0135107,
-    "hash": "890a62a5caab7a81ce21e474ba1a3a92"
+    "mtime": 1788076237.1286693,
+    "hash": "d00eea0d2d853824f64329ab98ba8ee8"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ShareButton.tsx": {
-    "mtime": 1787997592.7104232,
-    "hash": "941c992903efa2081de8d6b59e3ec7fd"
+    "mtime": 1788106010.779573,
+    "hash": "73e5ec26653bbf87e9b3d2c20fa21d9f"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ProjectsHome.tsx": {
     "mtime": 1787998868.1679568,
@@ -168,24 +180,24 @@
     "hash": "72a39eb5f3cb4427be44e72903711f26"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceOrgLogo.tsx": {
-    "mtime": 1786781939.0,
-    "hash": "cf9bbf51d56a1048cf2a510390074e88"
+    "mtime": 1788076237.1286693,
+    "hash": "f4cabaae91dc52a5413850535f26ba83"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/Education.tsx": {
-    "mtime": 1788000402.936517,
-    "hash": "0895802f474890c2fa143658cff38537"
+    "mtime": 1788072431.656949,
+    "hash": "e6acd64cdcd6978bec7cdaa20397975d"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/TweetEmbed.tsx": {
     "mtime": 1786781939.0,
     "hash": "5b4cca6dc6cfcbbdce316d329343d734"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/AnimatedSocialLinks.tsx": {
-    "mtime": 1787997731.5135748,
-    "hash": "e362b161ce355e99068e33402d076adb"
+    "mtime": 1788106010.779573,
+    "hash": "cdc1e43026b5ba860c4861b4f029f27e"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/SiteFooter.tsx": {
-    "mtime": 1788000402.936517,
-    "hash": "5558dfc1695c3fcb97d3710b5b188d52"
+    "mtime": 1788105552.7951329,
+    "hash": "912f54f5a4a66b3bb18f5f0a2371f031"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ExperienceHomeList.tsx": {
     "mtime": 1787998862.5830178,
@@ -212,8 +224,8 @@
     "hash": "ac5c91bfccf254884e401c4dfe2ad3be"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/HeroCover.tsx": {
-    "mtime": 1787997829.1221223,
-    "hash": "d148f0ec3bf1a0ec517f57684f6b58ce"
+    "mtime": 1788083711.2724733,
+    "hash": "25f7d863d7f0bb37933498297107c4cd"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/YcLogo.tsx": {
     "mtime": 1786781939.0,
@@ -232,8 +244,8 @@
     "hash": "17acaf96ae7dfaee14ce4f1ddaad7a4d"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/BookCall.tsx": {
-    "mtime": 1788000402.937517,
-    "hash": "ffd82ef3fea60207e038466175c33ba5"
+    "mtime": 1788074283.4199429,
+    "hash": "0f9172749906bb8f9174dd0c29552ed1"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/components/ui/sonner.tsx": {
     "mtime": 1786781939.0,
@@ -279,29 +291,33 @@
     "mtime": 1787998820.0174735,
     "hash": "ff1f02298c2b4f1441d4628e84132af4"
   },
+  "/home/white-hawk/Downloads/portfolio-main/src/data/research.ts": {
+    "mtime": 1788105517.4081779,
+    "hash": "b34db15e63ad4c8e4c36b3bb50b0dd3e"
+  },
   "/home/white-hawk/Downloads/portfolio-main/src/data/products.ts": {
     "mtime": 1787997821.1552444,
     "hash": "2e48c0d5821482d67067593804f3261d"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/data/experiences.ts": {
-    "mtime": 1787997829.1231222,
-    "hash": "d8c68b9258f72155ac639e657feff347"
+    "mtime": 1788076237.1286693,
+    "hash": "f27e843a66dcffb9365836331e711859"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/data/blogPosts.ts": {
     "mtime": 1787997625.1510208,
     "hash": "f4ecfd212fd852b04288eea28604d81f"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/data/llmsProfile.ts": {
-    "mtime": 1787997476.5856588,
-    "hash": "4621876634464faba04162b929314ad7"
+    "mtime": 1788106010.779573,
+    "hash": "c6eb0fe20e597b34572504c0ee6623e0"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/data/writings.ts": {
     "mtime": 1788000394.0135107,
     "hash": "375b7d0918831e83bef951dd1888f07c"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/og.ts": {
-    "mtime": 1787997476.5856588,
-    "hash": "409a4ccebde3c3854538f3238038fee7"
+    "mtime": 1788105488.158396,
+    "hash": "e9484387a0e7034917ccc5b00602f6c3"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/markdown-parser.ts": {
     "mtime": 1786781939.0,
@@ -320,16 +336,16 @@
     "hash": "f4180c59468073702de24297c0afa9ca"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/og-image.tsx": {
-    "mtime": 1787997744.0323942,
-    "hash": "3cac62df4e1423e78d175b7fbccd4c22"
+    "mtime": 1788106010.7785733,
+    "hash": "d15f5ae5f7438d305ad8c1ce2f611185"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/chatContext.ts": {
-    "mtime": 1787997539.7980306,
-    "hash": "7afa4f8ccb779f1ec9b8ba3b0d4e06ec"
+    "mtime": 1788106010.779573,
+    "hash": "e59c9dcb4fae524b7be3444296a24f15"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/site.ts": {
-    "mtime": 1787997476.5856588,
-    "hash": "ca93a77850a34660a9a6f31b1bd7089a"
+    "mtime": 1788106010.7785733,
+    "hash": "290ae1f2d39773202c0997ff8dc1c201"
   },
   "/home/white-hawk/Downloads/portfolio-main/src/lib/experienceSlug.ts": {
     "mtime": 1786781939.0,
@@ -364,12 +380,20 @@
     "hash": "6cbd2f289f6fd7295803a7169952bffe"
   },
   "/home/white-hawk/Downloads/portfolio-main/README.md": {
-    "mtime": 1787997652.7846622,
-    "hash": "3105b047d42f0dc391b2373f5b73097c"
+    "mtime": 1788106010.779573,
+    "hash": "a24888265abd7d6a89e26da99ac806e4"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/RESUME_EDIT_GUIDE.md": {
+    "mtime": 1788002300.670387,
+    "hash": "b491dc7414a8d7ffed520104297a90ea"
   },
   "/home/white-hawk/Downloads/portfolio-main/public/llms.txt": {
-    "mtime": 1787997548.805932,
-    "hash": "ff69bbb71ae2e51181e8fed6b9c48c6a"
+    "mtime": 1788106010.7785733,
+    "hash": "d7ea53d5bc038d06c72895930f943d08"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/graphify-out/memory/query_20260830_071718_where_is_the_contact_bookcall_section_connected_to.md": {
+    "mtime": 1788074238.635518,
+    "hash": "671c7b2a7e1d9840afc735035305ac91"
   },
   "/home/white-hawk/Downloads/portfolio-main/public/piyush-kumar-resume.pdf": {
     "mtime": 1787997552.9178863,
@@ -386,6 +410,26 @@
   "/home/white-hawk/Downloads/portfolio-main/public/piyush-kumar-resume-preview.png": {
     "mtime": 1787997553.3008819,
     "hash": "25b0129817808b49b2e25dab9623bafc"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/public/bg2.png": {
+    "mtime": 1788003076.597517,
+    "hash": "a0179d816c74e3a4f3ee5601389148dd"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/public/company-logos/freelance.svg": {
+    "mtime": 1788076237.1276693,
+    "hash": "853e5bd542e9216b63d777195775b66a"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/public/company-logos/samsung.svg": {
+    "mtime": 1788076237.1286693,
+    "hash": "1abdc9135e54bd0ba16acfe90b3da266"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/public/company-logos/dentsu.svg": {
+    "mtime": 1788076237.1276693,
+    "hash": "d3a2f8de140f59a872de9e19bdee3310"
+  },
+  "/home/white-hawk/Downloads/portfolio-main/public/company-logos/effigo.svg": {
+    "mtime": 1788076237.1276693,
+    "hash": "2fd4c24e7fe28284ab37d2414dd57383"
   },
   "/home/white-hawk/Downloads/portfolio-main/public/svg-icons/rust.svg": {
     "mtime": 1786781939.0,

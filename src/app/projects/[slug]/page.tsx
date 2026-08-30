@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { ExperienceOrgContributions } from '@/components/ExperienceOrgContributions';
 import { ExperienceOrgLogo } from '@/components/ExperienceOrgLogo';
 import { getExperienceBySlug, getExperienceSlugs } from '@/lib/experienceSlug';
+import { createOgMetadata } from '@/lib/og';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -30,9 +31,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Experience not found' };
   }
 
+  const description = exp.description ?? `${exp.role}. ${exp.period}.`;
   return {
-    title: `${exp.company} — experience`,
-    description: exp.description ?? `${exp.role}. ${exp.period}.`,
+    ...createOgMetadata({
+      title: `${exp.company} — Piyush Kumar`,
+      description,
+      url: `/projects/${slug}`,
+    }),
+    alternates: { canonical: `/projects/${slug}` },
   };
 }
 

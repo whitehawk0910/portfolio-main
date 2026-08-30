@@ -6,7 +6,7 @@ export default function ShareButton({ url }: { url: string }) {
   return (
     <button
       onClick={() => {
-        const fullUrl = `${process.env.NEXT_PUBLIC_HOST_URL ?? 'https://piyushos.vercel.app'}${url}`;
+        const fullUrl = `${process.env.NEXT_PUBLIC_HOST_URL ?? 'https://piyush45.vercel.app'}${url}`;
         navigator.clipboard
           .writeText(fullUrl)
           .then(() => toast.success('Link copied to clipboard!'))

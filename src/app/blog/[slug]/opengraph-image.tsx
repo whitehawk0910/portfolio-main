@@ -40,7 +40,7 @@ export default async function BlogPostOpenGraphImage({ params }: Props) {
       body: 'Browse the rest of the writing archive.',
       stats: [],
       showPortrait: false,
-      footer: 'piyushos.vercel.app/blog',
+      footer: 'piyush45.vercel.app/blog',
     });
   }
 
@@ -57,6 +57,6 @@ export default async function BlogPostOpenGraphImage({ params }: Props) {
     body: excerpt,
     stats: post.tags.slice(0, 3).map(tag => ({ value: tag, label: 'Tag' })),
     showPortrait: false,
-    footer: `piyushos.vercel.app/blog/${slug}`,
+    footer: `piyush45.vercel.app/blog/${slug}`,
   });
 }

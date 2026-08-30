@@ -1,20 +1,22 @@
 import Link from 'next/link';
+import { profile } from '@/lib/site';
 
 const NAV = [
-  { href: '/projects', label: 'Experience' },
-  { href: '/#projects', label: 'Projects' },
-  { href: '/#writing', label: 'Writing' },
+  { href: '/about', label: 'About' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/research', label: 'Research' },
+  { href: '/articles', label: 'Articles' },
   { href: '/resume', label: 'Resume' },
   { href: '/#contact', label: 'Contact' },
 ];
 
 const EXTERNAL = [
-  { href: 'https://github.com/whitehawk0910', label: 'GitHub' },
+  { href: profile.profiles.github, label: 'GitHub' },
   {
-    href: 'https://www.linkedin.com/in/piyush-kumar-2886001aa/',
+    href: profile.profiles.linkedin,
     label: 'LinkedIn',
   },
-  { href: 'https://piyushos.vercel.app/', label: 'Portfolio' },
+  { href: profile.domain, label: 'Portfolio' },
 ];
 
 export function SiteFooter() {
@@ -34,23 +36,23 @@ export function SiteFooter() {
                 fontVariationSettings: "'opsz' 60, 'SOFT' 40",
               }}
             >
-              Piyush{' '}
+              {profile.name.split(' ')[0]}{' '}
               <span
                 className="font-light italic text-foreground/80"
                 style={{ fontVariationSettings: "'opsz' 60, 'SOFT' 100" }}
               >
-                Kumar
+                {profile.name.split(' ').slice(1).join(' ')}
               </span>
             </p>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Software engineer at Dentsu, focused on backend systems, GenAI
-              workflows, and applied machine learning.
+              {profile.headline}. Focused on GPU computing and backend
+              engineering.
             </p>
             <a
-              href="mailto:piyushofficial09@gmail.com"
+              href={`mailto:${profile.email}`}
               className="mt-5 inline-block font-mono text-xs italic text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
             >
-              piyushofficial09@gmail.com
+              {profile.email}
             </a>
           </div>
           <div className="grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-14">

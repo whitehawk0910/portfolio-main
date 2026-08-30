@@ -21,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    ...['about', 'research', 'articles', 'blog', 'resume'].map(path => ({
+      url: `${SITE_URL}/${path}`,
+      lastModified: siteLastModified,
+      changeFrequency: 'monthly' as const,
+      priority: path === 'about' || path === 'research' ? 0.8 : 0.7,
+    })),
     {
       url: `${SITE_URL}/llms.txt`,
       lastModified: siteLastModified,
@@ -42,6 +48,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly',
     priority: 0.75,
   }));
+
+  // Article detail routes are canonicalized under /blog until their URL model
+  // is migrated; the /articles route is the semantic index.
 
   return [...staticRoutes, ...experienceRoutes, ...workRoutes];
 }

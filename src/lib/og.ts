@@ -1,13 +1,12 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { profile, SITE_NAME, SITE_URL } from '@/lib/site';
 
 export const OG_IMAGE_PATH = '/opengraph-image';
 export const OG_IMAGE_SIZE = { width: 1200, height: 630 } as const;
 
 export const DEFAULT_OG = {
-  title: 'Piyush Kumar — Software Engineer',
-  description:
-    'Software engineer at Dentsu building GenAI-backed services and backend systems with Java, Spring Boot, and Python.',
+  title: 'Piyush Kumar | AI Engineer, Software Engineer & Quantitative Research',
+  description: profile.description,
   siteName: SITE_NAME,
   url: SITE_URL,
 } as const;

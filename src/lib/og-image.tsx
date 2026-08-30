@@ -37,7 +37,7 @@ const DEFAULT_CONTENT: Required<OgImageContent> = {
     { value: '8.6', label: 'CGPA' },
     { value: '2024', label: 'Graduate' },
   ],
-  footer: 'piyushos.vercel.app',
+  footer: 'piyush45.vercel.app',
   showPortrait: false,
 };
 

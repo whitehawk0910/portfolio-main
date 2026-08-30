@@ -9,7 +9,7 @@ PROFILE
 - Email: piyushofficial09@gmail.com
 - GitHub: https://github.com/whitehawk0910
 - LinkedIn: https://www.linkedin.com/in/piyush-kumar-2886001aa/
-- Portfolio: https://piyushos.vercel.app/
+- Portfolio: https://piyush45.vercel.app/
 - Resume: /resume (PDF: /piyush-kumar-resume.pdf)
 
 EXPERIENCE

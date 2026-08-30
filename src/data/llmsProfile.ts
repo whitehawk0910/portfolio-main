@@ -1,4 +1,4 @@
-const SITE_URL = 'https://piyushos.vercel.app';
+const SITE_URL = 'https://piyush45.vercel.app';
 
 /**
  * User-facing deep-link prompt only — keep it short.
