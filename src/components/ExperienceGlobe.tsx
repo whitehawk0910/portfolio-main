@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { ExperienceOrgLogo } from '@/components/ExperienceOrgLogo';
 
 const CobeGlobe = dynamic(() => import('@/components/CobeGlobe'), {
   ssr: false,
@@ -45,10 +46,26 @@ const arcs = markers
   }));
 
 const roles = [
-  { id: 'dentsu', company: 'Dentsu', code: 'DE' },
-  { id: 'samsung', company: 'Samsung', code: 'SA' },
-  { id: 'effigo', company: 'Effigo', code: 'EG' },
-  { id: 'healthflex', company: 'Freelance', code: 'HF' },
+  {
+    id: 'dentsu',
+    company: 'Dentsu',
+    logo: 'company-logos/dentsu.svg',
+  },
+  {
+    id: 'samsung',
+    company: 'Samsung',
+    logo: 'company-logos/samsung.svg',
+  },
+  {
+    id: 'effigo',
+    company: 'Effigo',
+    logo: 'company-logos/effigo.svg',
+  },
+  {
+    id: 'healthflex',
+    company: 'Freelance',
+    logo: 'company-logos/freelance.svg',
+  },
 ];
 
 export function ExperienceGlobe() {
@@ -93,9 +110,7 @@ export function ExperienceGlobe() {
               } as React.CSSProperties
             }
           >
-            <span className="flex h-7 w-7 items-center justify-center rounded-sm bg-foreground font-mono text-[9px] font-semibold tracking-wide text-background">
-              {role.code}
-            </span>
+            <ExperienceOrgLogo logo={role.logo} company={role.company} />
             <span className="font-mono text-[10px] font-medium uppercase tracking-[0.12em] text-foreground">
               {role.company}
             </span>

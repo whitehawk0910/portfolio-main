@@ -45,7 +45,7 @@ export function ExperienceOrgLogo({
   if (framed) {
     return (
       <span
-        className={`flex ${box} shrink-0 items-center justify-center overflow-hidden rounded-lg bg-transparent`}
+        className={`flex ${box} shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line/80 bg-card p-1.5`}
       >
         {inner}
       </span>
@@ -54,7 +54,7 @@ export function ExperienceOrgLogo({
 
   return (
     <span
-      className={`flex ${box} shrink-0 items-center justify-center overflow-hidden rounded-lg bg-transparent`}
+      className={`flex ${box} shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line/70 bg-card p-1.5`}
     >
       {inner}
     </span>

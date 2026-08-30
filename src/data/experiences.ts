@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     period: 'Sep 2024 — Present',
     description:
       'Building GenAI-backed services and scalable backend systems for enterprise workflows.',
-    logo: 'DE',
+    logo: 'company-logos/dentsu.svg',
     isCurrent: true,
     featured: true,
     techStack: [
@@ -66,7 +66,7 @@ export const experiences: Experience[] = [
     period: 'Aug 2024 — Sep 2024',
     description:
       'Designed machine-learning-driven predictive algorithms for backend decision support.',
-    logo: 'HF',
+    logo: 'company-logos/freelance.svg',
     techStack: [{ label: 'Machine Learning' }, { label: 'Algorithms' }],
     highlights: [
       'Designed predictive algorithms to improve decision-making accuracy and backend intelligence.',
@@ -80,7 +80,7 @@ export const experiences: Experience[] = [
     period: 'Jan 2024 — Apr 2024',
     description:
       'Developed backend components, deployment automation, and containerized services.',
-    logo: 'EG',
+    logo: 'company-logos/effigo.svg',
     techStack: [
       { label: 'Java', icon: `${DEVICON}/java/java-original.svg` },
       { label: 'Spring Boot', icon: `${DEVICON}/spring/spring-original.svg` },
@@ -104,7 +104,7 @@ export const experiences: Experience[] = [
     period: 'Dec 2022 — Aug 2023',
     description:
       'Worked on deep-learning models and GPU training pipelines for high-resolution smoke simulation.',
-    logo: 'SA',
+    logo: 'company-logos/samsung.svg',
     techStack: [
       { label: 'Python', icon: `${DEVICON}/python/python-original.svg` },
       { label: 'PyTorch', icon: `${DEVICON}/pytorch/pytorch-original.svg` },
