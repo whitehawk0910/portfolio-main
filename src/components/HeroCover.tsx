@@ -144,12 +144,8 @@ export function HeroCover() {
                     className="mt-[0.7em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
                   />
                   <span className="min-w-0 text-pretty">
-                    Alongside my engineering work, I build quantitative
-                    research and AI systems, developing mathematically driven
-                    trading strategies with statistical modeling, machine
-                    learning, optimization, and market data, while focusing on
-                    efficient inference, performance-aware computing, and
-                    scalable production workflows.
+                    Building quantitative and AI systems with statistics,
+                    machine learning, optimization, and scalable inference.
                   </span>
                 </li>
               </ul>
