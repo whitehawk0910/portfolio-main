@@ -138,6 +138,20 @@ export function HeroCover() {
                     Java, Spring Boot, and Python.
                   </span>
                 </li>
+                <li className="flex gap-3.5">
+                  <span
+                    aria-hidden
+                    className="mt-[0.7em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
+                  />
+                  <span className="min-w-0 text-pretty">
+                    Alongside my engineering work, I build quantitative
+                    research and AI systems, developing mathematically driven
+                    trading strategies with statistical modeling, machine
+                    learning, optimization, and market data, while focusing on
+                    efficient inference, performance-aware computing, and
+                    scalable production workflows.
+                  </span>
+                </li>
               </ul>
             </div>
 
@@ -185,7 +199,9 @@ export function HeroCover() {
           <div className="border-t border-foreground/15 pt-4">
             <ul className="type-meta grid grid-cols-2 gap-y-3 text-muted-foreground lg:grid-cols-4 lg:gap-0">
               <li className="flex items-baseline gap-2 lg:justify-start">
-                <span className="text-foreground normal-case">Dentsu</span>
+                <span className="text-foreground">
+                  Statistical · Mathematical Models
+                </span>
               </li>
               <li className="flex items-baseline gap-2 lg:justify-center">
                 <span aria-hidden className="text-accent">
