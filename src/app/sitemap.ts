@@ -1,11 +1,13 @@
 import type { MetadataRoute } from 'next';
 import { getProductSlugs } from '@/data/products';
+import { getSelectedWorkSlugs } from '@/data/selectedWork';
 import { getExperienceSlugs } from '@/lib/experienceSlug';
 import { SITE_LAST_UPDATED, SITE_URL } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const experienceSlugs = getExperienceSlugs();
   const productSlugs = getProductSlugs();
+  const selectedWorkSlugs = getSelectedWorkSlugs();
   const siteLastModified = new Date(SITE_LAST_UPDATED);
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -49,8 +51,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  const selectedWorkRoutes: MetadataRoute.Sitemap = selectedWorkSlugs.map(
+    slug => ({
+      url: `${SITE_URL}/selected-work/${slug}`,
+      lastModified: siteLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    })
+  );
+
   // Article detail routes are canonicalized under /blog until their URL model
   // is migrated; the /articles route is the semantic index.
 
-  return [...staticRoutes, ...experienceRoutes, ...workRoutes];
+  return [
+    ...staticRoutes,
+    ...experienceRoutes,
+    ...workRoutes,
+    ...selectedWorkRoutes,
+  ];
 }
